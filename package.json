@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-inventory-standalone",
+  "version": "1.0.0",
+  "description": "standalone use case of nodejs-inventory and nodejs-inventory-monitor",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegomanjarres/nodejs-inventory-standalone.git"
+  },
+  "keywords": [
+    "nodejs",
+    "inventory",
+    "monitor",
+    "standalone"
+  ],
+  "author": "Diego Manjarres",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diegomanjarres/nodejs-inventory-standalone/issues"
+  },
+  "homepage": "https://github.com/diegomanjarres/nodejs-inventory-standalone#readme",
+  "dependencies": {
+    "nodejs-inventory": "^1.3.7",
+    "nodejs-inventory-monitor": "^1.0.1"
+  }
+}
